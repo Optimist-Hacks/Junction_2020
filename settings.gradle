@@ -1,0 +1,4 @@
+rootProject.name = 'Junction_2020'
+
+include 'server'
+include 'client'

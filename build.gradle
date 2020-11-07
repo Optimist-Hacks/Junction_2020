@@ -1,0 +1,19 @@
+def kotlinProjects = [
+        project(':server'),
+        project(':client')
+]
+
+configure(kotlinProjects) {
+    group = 'dev.optimist'
+    version = '0.0.1'
+
+
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+
+    }
+}
+
